@@ -12,10 +12,9 @@ function App() {
   const [paragraph, setParagraph] = useState(" ");
 
   useEffect(() => {
-    console.log("here");
     axios
       .get(
-        `https://api.nasa.gov/planetary/apod?api_key=${api_key}&date=2020-11-04`
+        `https://api.nasa.gov/planetary/apod?api_key=${api_key}&date=2020-11-05`
       )
       .then(res => {
         console.log(res);

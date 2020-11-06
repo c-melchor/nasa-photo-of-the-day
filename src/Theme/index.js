@@ -11,18 +11,19 @@ export default {
     mobile: "(max-width:550px)",
     tablet: "(max-width:800px)"
   },
+  textTransform: "uppercase",
   padding: {
     small: ".5rem",
     medium: "1.5rem"
   },
   width: {
-    paragraph: "90%",
+    paragraph: "60%",
     imageDiv: "80%"
   },
   fontSize: {
     paragraph: "1.2rem",
     pageHeader: "4rem",
-    imageTitle: "2rem"
+    imageTitle: "3rem"
   },
   textAlign: {
     paragraph: "center"

@@ -15,6 +15,11 @@ import styled from "styled-components";
 const StyledImageDiv = styled.div`
   background-color: ${pr => pr.theme.tertiaryColor};
   padding: ${pr => pr.theme.padding.medium};
+  &:hover {
+    opacity: 0.2;
+    transition: opacity 1s;
+  }
+  transition: opacity 1s;
 `;
 
 const StyledImageTitle = styled.h2`

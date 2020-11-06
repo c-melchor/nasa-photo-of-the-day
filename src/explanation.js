@@ -7,6 +7,10 @@ const StyledParagraphDiv = styled.div`
   padding: ${pr => pr.theme.padding.small};
   width: ${pr => pr.theme.width.paragraph};
   margin: ${pr => pr.theme.margin};
+
+  &:hover {
+    text-transform: ${pr => pr.theme.textTransform};
+  }
 `;
 
 export default function Description(props) {
